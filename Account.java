@@ -1,7 +1,7 @@
 package NewBank.newbank.server;
 
 public class Account {
-	
+	private int;
 	private String accountName;
 	private double openingBalance;
 
