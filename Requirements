@@ -1,0 +1,28 @@
+1.      Micro-loan
+1.1  	         Prompt for option to loan or borrow
+1.2               Based upon loanees balance dictates amount to borrow. Credit worthiness  
+1.3               Splitting up loan and request loan into two classes
+1.4               Option for loaning and borrowing. Separate functionalities. Public + private
+
+1.5.  Lender
+1.5.1             Prompt for max amount offer as a loan
+1.5.2             Desired repayment duration – loaner
+1.5.3             Loaners option to set interest rates (capped at a figure)
+1.5.4              
+ 
+1.6.  Borrower
+1.6.1             Monthly payment
+1.6.2             Prompt for amount to borrow
+1.6.3             Desired repayment duration – loanee
+1.6.4             Public loan request. Scroll down list for possible loaners
+
+2.      Generic Bank Account
+2.1   	          Present name, balance, and account information
+2.2                Add in error messages
+2.3                Max of 3 login attempts
+2.4                Option to opt for a higher level of security bank account
+2.5                Commenting in code
+2.6                Closing balance after a transaction
+2.7                Balance after each payment
+2.8                Store transaction in a transaction list
+2.8.1             List accessible to customer and admin
