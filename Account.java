@@ -4,7 +4,7 @@ public class Account {
 	private double balance = 0;
 	private double interest = 0.02;
 	private int accountNumber;
-	private static int numberOfAcconts = 1000;
+	private static int numberOfAcconts = 6002980;
 
 	//this will be the counter for accunt numbers
 	Account() {
