@@ -15,13 +15,35 @@
 1.6.3             Desired repayment duration – loanee
 1.6.4             Public loan request. Scroll down list for possible loaners
 
+//2.      Generic Bank Account
+//2.1   	          Present name, balance, and account information
+//2.2                Add in error messages
+//2.3                Max of 3 login attempts
+//2.4                Option to opt for a higher level of security bank account
+//2.5                Commenting in code
+//2.6                Closing balance after a transaction
+//2.7                Balance after each payment
+//2.8                Store transaction in a transaction list
+//2.8.1             List accessible to customer and admin
+Requiment 2 version 2.0
 2.      Generic Bank Account
-2.1   	          Present name, balance, and account information
-2.2                Add in error messages
-2.3                Max of 3 login attempts
-2.4                Option to opt for a higher level of security bank account
-2.5                Commenting in code
-2.6                Closing balance after a transaction
-2.7                Balance after each payment
-2.8                Store transaction in a transaction list
-2.8.1             List accessible to customer and admin
+2.1.0 create generic bank account
+2.1.1 Users shall select account types, (savings, loans or checking) as options for account creation.
+2.1.2 The program shall return invalid entry massage, please try again for wrong selection
+2.1.2 Opening balance for saving account shall be 200$
+2.1.3 Opening balance for checking account shall be 1000$
+2.2. Users shall be allowed to make deposits
+2.2.1 user input shall accept only positive number
+2.2.3 the program shall return invalid entry massage for negative numbers or non numeric entries
+2.3.1 Users shall be allowed to make withdrawals
+2.3.2 the application shall check if the withdrawal amount is greater than the current balance + 5$
+2.3.3 user input shall accept only positive number
+2.3.4 the program shall return invalid entry massage for negative numbers or non numeric entries
+2.4.1 upon deposit or withdrawal there user shall receive the updated account status with the current balance.
+2.4.2 Users shall list the details of their accounts and see their account numbers, first name, last name, social security number for each account type.
+2.5 Max of 3 login attempts
+2.6 Option to opt for a higher level of security bank account
+2.7 Commenting in code
+2.8 Balance after each payment
+2.9 Store transaction in a transaction list
+2.10.1 List accessible to customer and admin
