@@ -47,3 +47,5 @@ Requiment 2 version 2.0
 2.8 Balance after each payment
 2.9 Store transaction in a transaction list
 2.10.1 List accessible to customer and admin
+2.11 The user must undergo Two factor authentication  (for higher security accounts)
+2.11.1 Should the user forget thier second factor password, the user shall be able to securely reset it themselves
