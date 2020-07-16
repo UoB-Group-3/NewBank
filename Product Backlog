@@ -1,0 +1,49 @@
+Product Backlog:
+// = completed
+
+1.    Micro-loan
+1.1  	           Prompt for option to loan or borrow
+1.2              Based upon loanees balance dictates amount to borrow. Credit worthiness  
+1.3              Splitting up loan and request loan into two classes
+1.4              Option for loaning and borrowing. Separate functionalities. Public + private
+
+1.5.  Lender
+1.5.1            Prompt for max amount offer as a loan
+1.5.2            Desired repayment duration – loaner
+1.5.3            Loaners option to set interest rates (capped at a figure)        
+ 
+1.6.  Borrower
+1.6.1             Monthly payment
+1.6.2             Prompt for amount to borrow
+1.6.3             Desired repayment duration – loanee
+1.6.4             Public loan request. Scroll down list for possible loaners
+
+2.    Generic Bank Account
+//2.1.               Create generic bank account
+//2.1.1              Users shall select account types, (premium, savings, or loans) as options for account creation.
+//2.1.2              The program shall return invalid entry massage, please try again for wrong selection
+//2.1.2              Opening balance for savings account shall be 500$
+//2.1.3              Opening balance for premium account shall be 1000$
+//2.2.               Users shall be allowed to make deposits
+//2.2.1              User input shall accept only positive number
+//2.2.3              The program shall return invalid entry massage for negative numbers or non numeric entries
+//2.3.1              Users shall be allowed to make withdrawals
+//2.3.2              The application shall check if the withdrawal amount is greater than the current balance + 5$
+//2.3.3              User input shall accept only positive number
+//2.3.4              The program shall return invalid entry massage for negative numbers or non numeric entries
+//2.4.1              Upon deposit or withdrawal there user shall receive the updated account status with the current balance.
+//2.4.2              Users shall list the details of their accounts and see their account numbers, first name, last name, social security number for each account type.
+2.5                Max of 3 login attempts
+2.6                Option to opt for a higher level of security bank account
+2.7                Commenting in code
+//2.8                Balance after each payment
+2.9                Store transaction in a transaction list
+2.10               List accessible to customer and admin
+2.11               The user must undergo Two factor authentication  (for higher security accounts)
+2.11.1             Should the user forget thier second factor password, the user shall be able to securely reset it themselves
+
+3.     Transferring 
+3.1                A user shall be able to transfer funds from one account to another
+
+4.     Server
+4.1                The bank should have data storage through the utilisation of a server 
