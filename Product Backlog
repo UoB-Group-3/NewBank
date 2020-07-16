@@ -34,6 +34,8 @@ Product Backlog:
 //2.4.1              Upon deposit or withdrawal there user shall receive the updated account status with the current balance.
 //2.4.2              Users shall list the details of their accounts and see their account numbers, first name, last name, social security number for each account type.
 2.5                Max of 3 login attempts
+2.5.1              A user shall create a password
+2.5.2              A user password shall be checked to complete a withdrawal or deposit or transfer
 2.6                Option to opt for a higher level of security bank account
 2.7                Commenting in code
 //2.8                Balance after each payment
