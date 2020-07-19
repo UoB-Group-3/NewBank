@@ -1,6 +1,13 @@
 package com.jogwal;
-
 import java.util.ArrayList;
+
+/*
+ * NewBank Account logic
+ * @Authors: Jonathan Ogwal, Alex Lempka
+ * Version 3
+ * Edit date: 19/07/20
+ */
+
 
 public class Bank {
 	ArrayList<Customer> customers = new ArrayList<Customer>();
@@ -20,19 +27,18 @@ class Customer{
 	private final String lastName;
 	private final String socialSecurityNumber;
 	private final Account account;
+  private final String localSubsidiary;
 
-	public Customer(String firstName, String lastName, String socialSecurityNumber, Account account) {
+
+	public Customer(String firstName, String lastName, String socialSecurityNumber, Account account, String localSubsidiary ) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.socialSecurityNumber = socialSecurityNumber;
 		this.account = account;
+    this.localSubsidiary = localSubsidiary;
+
 	}
-	public Customer(String firstName, String middleName, String lastName, String socialSecurityNumber, Account account) {
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.socialSecurityNumber = socialSecurityNumber;
-		this.account = account;
-	}
+	
 	Account getAccount(){
 		return account;
 	}
@@ -42,6 +48,7 @@ class Customer{
 				"firsName : " + firstName +
 				"lastName: " + lastName +
 				"socialSecurityNumber" + socialSecurityNumber +
+        "localSubsidiary" + localSubsidiary +
 				account
 				;
 	}
@@ -50,6 +57,7 @@ class Customer{
 				" firsName : " + firstName + "\n" +
 				" lastName: " + lastName + "\n" +
 				" socialSecurityNumber" + socialSecurityNumber + "\n" +
+        "localSubsidiary" + localSubsidiary + "\n" +
 				" Acccount Number: " + account.getAccountNumber()
 				;
 	}
