@@ -1,9 +1,10 @@
 Sprint Backlog:
 // = completed
 
-
-2.    Generic Bank Account
-
+2.5                Max of 3 login attempts
+2.5.1              A user shall create a password
+2.5.2              A user password shall be checked to complete a withdrawal or deposit or transfer
+2.7                Commenting in code
 
 3.     Transferring 
-
+3.1                A user shall be able to transfer funds from one account to another
