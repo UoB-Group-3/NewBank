@@ -39,9 +39,9 @@ public class Account {
   }
 
 //________________________________________________________________________________________________________________________
-  public void widthdraw(double amount) {
+  public void widthdraw(double amount) { // method to withdraw from account
     if ((amount + 5) > balance) {
-      System.out.println("You have insufficient funds");
+      System.out.println("You have insufficient funds"); 
       System.out.println("The bank runs a loans account you may consider taking a loan ");
       return;
     }
