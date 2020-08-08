@@ -22,7 +22,7 @@ public class Bank {
 	}
 }
 //______________________________________________________________________________________________________________________
-class Customer{
+class Customer{ // enter customer details
 	private final String firstName;
 	private final String lastName;
 	private final String socialSecurityNumber;
