@@ -1,10 +1,10 @@
 Sprint Backlog:
 // = completed
 
-2.5                Max of 3 login attempts
-2.5.1              A user shall create a password
-2.5.2              A user password shall be checked to complete a withdrawal or deposit or transfer
-2.7                Commenting in code
+2.5                Max of 3 login attempts // completed
+2.5.1              A user shall create a password // completed
+2.5.2              A user password shall be checked to complete a withdrawal or deposit or transfer // not completed
+2.7                Commenting in code // completed
 
 3.     Transferring 
 3.1                A user shall be able to transfer funds from one account to another
